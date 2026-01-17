@@ -65,3 +65,31 @@ margin: 0 auto;
 .our-sponsors{
 
 }
+.collections-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.card{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid black;
+    /* gap: 30px; */
+    padding: 10px;
+}
+.card-tittle{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: rgba(24, 25, 31, 1);
+    margin: 5px 0;
+}
+.price{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0 0;
+}
+.card-text{
+    font-size:.89rem ;
+    font-weight: 700;
+    color: rgba(120, 120, 133, 1);
+}
